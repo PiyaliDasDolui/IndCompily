@@ -15,9 +15,19 @@
    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
-   <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.css">
+   <!-- <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.css"> -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- ALL VERSION CSS -->
+    <!-- <link rel="stylesheet" href="css/versions.css"> -->
+    <!-- Responsive CSS -->
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <!-- Custom CSS -->
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
 
 
    <!-- file:///Users/sauvikdolui/Downloads/testFolder/~bootstrap/dist/css/bootstrap.css -->
@@ -45,46 +55,44 @@
 
   <!-- ======= Header ======= -->
 
- <header id="header" class="fixed-top">
-  <div class="container d-flex align-items-center position-relative">
+ <!-- <header id="header" class="fixed-top"> -->
 
-    <!-- Uncomment below if you prefer to use an image logo -->
-    <div style="margin-right: 165px;">
-    <a href="index.html">
+<header class="top-navbar" id="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a  href="index.html">
+        <img src="assets/img/IndCompli.png" alt="" style="height: 50px;width: 150px;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse test" id="navbars-host">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="index.html">
+            <i class="fa fa-home"></i>
+          </a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#howitworks">How it works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#benefit">Benefits</a></li>
+          <li class="nav-item">
+            <a class="nav-link">
+             <i class="fa fa-user"></i>
+            </a>
+          </li>
+  
+        </ul>
 
-      <img src="assets/img/IndCompli.png" alt="" class="img-fluid" style="height: 50px;width: 150px; " >
-      <!-- <span style="color: #1d84ad; font-size: 20px; position:absolute; padding-left:7px">IndCompli</span> -->
-    </a>
-  </div>
-  <div style="margin-left: 235px;">
-    <nav class="nav-menu d-none d-lg-block" >
-      <ul>
-        <li class="active"><a href="" >
-          <i class="fa fa-home"></i>
-        </a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#howitworks">How it works</a></li>
-        <li><a href="#benefit">Benefits</a></li>
-
-        <li>
-          <a class="icon icon-user2" >
-           <i class="fa fa-user"></i>
-            <!-- <span class="glyphicon glyphicon-user"></span> -->
-          </a>
-        </li>
-
-      </ul>
-    </nav>
-
-  </div>
-
-  </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+  
 </header> <!--End Header-->
 <!-- =========================== End Header ============================== -->
 
 <section>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 20px;margin-top: 50px;">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 20px;">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -130,16 +138,43 @@
     </div>
 </section>
 
-<section>
-      <div class="fix-center">
-        <div class="left-comply">
+<section class="why-compily">
+      <div class="fix-center ">
+        <div class="row">
+          <div class="col-sm-6">
+            <h2>Why
+              <span class="gcolor">
+                IndCompli</span>?
+  
+            </h2>
+          </div>
+          <div class="col-sm-6">
+            <p>When running a business, whether it is an SMB, or a large enterprise, one of the basic requirements is 100% compliance with the law. 
+              In complex jurisdictions, this can be a very daunting task! In India alone, there are over <span class="gcolor">76,000 </span> possible annual statutory compliance laws in 2019.</p>
+
+            <p>You have to:</p>
+            <ul>
+            <li>determine which among this myriad of laws apply to you</li>
+            <li>keep track of all the legal updates and notifications</li>
+            <li>make sure that you conform to the law in letter and spirit</li>
+            <li>and of course, always be ready for compliance audits.</li>
+            </ul>
+            <p>All of this just distracts you from your core focus – your business.</p>
+  
+  
+  
+            <p>Being non-compliant also does the same thing. If the associated penalties for non-compliance are not enough of a deterrent, the consequences to your senior management, and&nbsp; the wasted hours filing a large amount of paperwork to remedy these non-compliances, should be!</p>
+  
+          </div>
+        </div>
+        <!-- <div class="left-comply " >
           <h2>Why
             <span class="gcolor">
               IndCompli</span>?
 
           </h2>
-        </div>
-        <div class="right-comply">
+        </div> -->
+        <!-- <div class="right-comply ">
           <p>When running a business, whether it is an SMB, or a large enterprise, one of the basic requirements is 100% compliance with the law. In complex jurisdictions, this can be a very daunting task! In India alone, there are over <span class="gcolor">76,000 </span> possible annual statutory compliance laws in 2019.</p>
 
           <p>You have to:</p>
@@ -155,7 +190,7 @@
 
           <p>Being non-compliant also does the same thing. If the associated penalties for non-compliance are not enough of a deterrent, the consequences to your senior management, and&nbsp; the wasted hours filing a large amount of paperwork to remedy these non-compliances, should be!</p>
 
-        </div>
+        </div> -->
       </div>
 </section>
 

@@ -64,6 +64,15 @@
   max-height: 100px;
 }
 
+#header .test{
+  margin-left: 400px;
+}
+@media (max-width: 600px) {
+
+#header .test{
+  margin-left: 0px;
+}
+}
 @media (max-width: 991px) {
   #header {
     padding: 12px 0;
@@ -75,6 +84,26 @@
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+
+.nav-link {
+  display: block;
+  position: relative;
+  color: #1d84ad !important;
+  transition: 0.3s;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-item {
+  position: relative;
+  white-space: nowrap;
+  padding: 10px 0 10px 28px;
+}
+
+.top-navbar .bg-light {
+  background: white!important;
+  margin-bottom: 0px !important;
+}
 .nav-menu ul {
   margin: 0;
   padding: 0;
@@ -180,6 +209,8 @@
     content: "\ea9d";
   }
 }
+
+
 
 /* Get Startet Button */
 .get-started-btn {
@@ -352,11 +383,11 @@ article, aside, figure, footer, header, nav, section {
   float: left;
   padding-right: 50px;
 }
-.left-comply h2 {
+.why-compily h2 {
   color: #414042;
   font: 300 84px/92px Oswald, sans-serif;
 }
-.left-comply span {
+.why-compily span {
   font-weight: 500;
 }
 .gcolor {
@@ -557,6 +588,17 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
   border-radius: 50%;
   background: #fff;
   border: 5px solid #1d84ad;
+  }
+
+  @media (max-width: 800px) {
+    .product-views .icon {
+      top: -30px;
+      font-size: 40px;
+      width: 75px;
+      height: 75px;
+
+      }
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
   }
 .fa-folder-open-o{
   padding-left: 4px;
