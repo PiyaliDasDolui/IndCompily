@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 a:hover {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1d84ad;
+  border: 6px solid #00b8f1;
   border-top-color: #ecf8f9;
   border-radius: 50%;
   width: 60px;
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #1d84ad;
+  background: #00b8f1;
   color: #fff;
   transition: all 0.4s;
 }
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #1d84ad;
+  background: #00b8f1;
   color: #fff;
   height: 40px;
   font-size: 16px;
@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .nav-menu .drop-down ul {
@@ -248,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .nav-menu .drop-down > a:after {
@@ -294,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Appointment Button */
 .appointment-btn {
   margin-left: 25px;
-  background: #1d84ad;
+  background: #00b8f1;
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px;
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #1d84ad;
+  color: #00b8f1;
   text-decoration: none;
 }
 
@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 50px;
-  border-top: 4px solid #1d84ad;
+  border-top: 4px solid #00b8f1;
 }
 
 @media (max-width: 1200px) {
@@ -550,7 +550,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #1d84ad;
+  background: #00b8f1;
 }
 
 #hero .btn-get-started {
@@ -566,7 +566,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  background: #1d84ad;
+  background: #00b8f1;
 }
 
 #hero .btn-get-started:hover {
@@ -632,7 +632,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #1d84ad;
+  background: #00b8f1;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -728,7 +728,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #1d84ad;
+  background: #00b8f1;
   top: 0;
   border-radius: 0px;
 }
@@ -740,7 +740,7 @@ section {
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #1d84ad;
+  color: #00b8f1;
   transition: all 0.3s ease-in-out;
 }
 
@@ -772,8 +772,8 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #1d84ad;
-  color: #fff;
+  background: #00b8f1;
+  color: #2d2654;
   background-size: cover;
   padding: 60px 0;
 }
@@ -799,7 +799,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 /*--------------------------------------------------------------
@@ -822,7 +822,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .about .content p:last-child {
@@ -845,7 +845,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 30px;
-  color: #1d84ad;
+  color: #00b8f1;
   float: left;
 }
 
@@ -876,7 +876,7 @@ section {
 }
 
 .counts .count-box a:hover {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 /*--------------------------------------------------------------
@@ -891,7 +891,7 @@ section {
 .features .icon-box i {
   font-size: 48px;
   float: left;
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .features .icon-box p {
@@ -921,17 +921,31 @@ section {
 }
 
 .services .icon i {
-  width: 80px;
+  top: -80px;
+  left: 50%;
+  font-size: 80px;
+  color: #00b8f1;
+  width: 150px;
+  height: 150px;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+  border: 5px solid #00b8f1;
+  /* width: 80px;
   height: 80px;
   margin-bottom: 20px;
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
-  color: #1d84ad;
-  font-size: 40px;
+  color: #00b8f1;
+  font-size: 80px;
   overflow: hidden;
   padding-top: 20px;
-  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+  border: 5px solid #00b8f1;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15); */
 }
 
 .services .icon-box:hover .icon i {
@@ -952,7 +966,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .services .title::after {
@@ -961,7 +975,7 @@ section {
   display: block;
   width: 50px;
   height: 2px;
-  background: #1d84ad;
+  background: #00b8f1;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -1040,7 +1054,7 @@ section {
 }
 
 .appointment .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
-  border-color: #1d84ad;
+  border-color: #00b8f1;
 }
 
 .appointment .php-email-form input, .appointment .php-email-form select {
@@ -1052,7 +1066,7 @@ section {
 }
 
 .appointment .php-email-form button[type="submit"] {
-  background: #1d84ad;
+  background: #00b8f1;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1091,16 +1105,16 @@ section {
 }
 
 .departments .nav-link:hover h4 {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .departments .nav-link.active {
   background: #f7fcfc;
-  border-color: #1d84ad;
+  border-color: #00b8f1;
 }
 
 .departments .nav-link.active h4 {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .departments .tab-pane.active {
@@ -1111,13 +1125,13 @@ section {
 .departments .tab-pane img {
   float: left;
   /* max-width: 300px; */
-  padding: 0 15px 15px 0;
+  padding-bottom:  15px ;
 }
 
 @media (max-width: 768px) {
   .departments .tab-pane img {
     float: none;
-    padding: 0 0 15px 0;
+    padding-bottom:15px;
     max-width: 100%;
   }
 }
@@ -1126,7 +1140,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .departments .tab-pane p {
@@ -1135,6 +1149,9 @@ section {
 
 .departments .tab-pane p:last-child {
   margin-bottom: 0;
+}
+.departments .tab-pane {
+  text-align: right;
 }
 
 @-webkit-keyframes slide-down {
@@ -1229,7 +1246,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #1d84ad !important;
+  background-color: #00b8f1 !important;
 }
 
 @media (max-width: 767px) {
@@ -1276,7 +1293,7 @@ section {
 }
 
 .doctors .member .social a:hover {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .doctors .member .social i {
@@ -1340,7 +1357,7 @@ section {
 }
 
 .gallery .owl-dot.active {
-  background-color: #1d84ad !important;
+  background-color: #00b8f1 !important;
 }
 
 .gallery .gallery-carousel .owl-stage-outer {
@@ -1348,7 +1365,7 @@ section {
 }
 
 .gallery .gallery-carousel .center {
-  border: 6px solid #1d84ad;
+  border: 6px solid #00b8f1;
   margin: -10px;
   box-sizing: content-box;
   padding: 4px;
@@ -1381,7 +1398,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #1d84ad;
+  color: #00b8f1;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1413,7 +1430,7 @@ section {
 }
 
 .pricing ul i {
-  color: #1d84ad;
+  color: #00b8f1;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1431,7 +1448,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #1d84ad;
+  background: #00b8f1;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1450,7 +1467,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #1d84ad;
+  background: #00b8f1;
 }
 
 .pricing .advanced {
@@ -1462,7 +1479,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #1d84ad;
+  background: #00b8f1;
   color: #fff;
 }
 
@@ -1485,7 +1502,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #1d84ad;
+  font-family: #00b8f1;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1503,7 +1520,7 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .faq .faq-list a.collapsed {
@@ -1511,7 +1528,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 .faq .faq-list a.collapsed i::before {
@@ -1530,7 +1547,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #1d84ad;
+  color: #00b8f1;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #c5ebec;
@@ -1612,7 +1629,7 @@ section {
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #1d84ad;
+  background-color: #00b8f1;
 }
 
 .contact .php-email-form input {
@@ -1624,7 +1641,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1d84ad;
+  background: #00b8f1;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1691,7 +1708,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1d84ad;
+  background: #00b8f1;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1727,7 +1744,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1d84ad;
+  color: #00b8f1;
   font-size: 18px;
   line-height: 1;
 }
@@ -1750,7 +1767,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #1d84ad;
+  color: #00b8f1;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1777,7 +1794,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #1d84ad;
+  background: #00b8f1;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1830,7 +1847,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 80px;
-  color: #1d84ad;
+  color: #00b8f1;
   width: 150px;
   height: 150px;
   line-height: 0;
@@ -1839,7 +1856,7 @@ section {
   justify-content: center;
   border-radius: 50%;
   background: #fff;
-  border: 5px solid #1d84ad;
+  border: 5px solid #00b8f1;
   }
 
   @media (max-width: 800px) {
@@ -1876,7 +1893,7 @@ section {
   left: 100%;
   transform: translateX(-50%);
   font-size: 38px;
-  color: #1d84ad;
+  color: #00b8f1;
   width: 60px;
   height: 60px;
   line-height: 0;
@@ -1885,3 +1902,4 @@ section {
   justify-content: center;
   border-radius: 50%;
 }
+#more {display: none;}
